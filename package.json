@@ -1,7 +1,7 @@
 {
   "name": "react-with-express-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "> This is a project starter for web seminar course homework.",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
@@ -14,7 +14,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel-polyfill": "^6.8.0",
     "express": "^4.13.4",
+    "isomorphic-fetch": "^2.2.1",
     "morgan": "^1.7.0",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
@@ -39,5 +41,13 @@
     "webpack": "^1.13.0",
     "webpack-dev-middleware": "^1.6.1",
     "webpack-hot-middleware": "^2.10.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruey55664843/react-with-express-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ruey55664843/react-with-express-starter/issues"
+  },
+  "homepage": "https://github.com/ruey55664843/react-with-express-starter#readme"
 }
